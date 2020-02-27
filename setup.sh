@@ -11,6 +11,7 @@ git config --global user.email maheng1991@hotmail.com
 
 echo "Setting up tmux..." 
 conda install -y -c conda-forge tmux 
+cd $HOME
 mkdir -p Pkgs && cd Pkgs 
 git clone https://github.com/hengma1001/tmux-config.git 
 cd tmux-config 
